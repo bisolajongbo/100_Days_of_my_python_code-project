@@ -16,4 +16,3 @@ None
 ## Output
 ![alt text](image.png)
 
-
