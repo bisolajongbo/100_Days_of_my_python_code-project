@@ -11,4 +11,4 @@ The game asks the player to make a series of choices at different stages of the 
 ## Output
 ![alt text](image-1.png)
 ![alt text](image.png)
-
+![alt text](image-2.png)
