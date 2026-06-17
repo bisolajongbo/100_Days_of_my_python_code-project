@@ -13,6 +13,6 @@ The player is prompted to guess one letter at a time. If the guessed letter is c
 The game continues until the player either successfully get all the letters and wins the game , or exhausts all six lives, resulting in a game over.
 
 ## Output
-![alt text](image.png)
+![alt text](image-2.png)
 ![alt text](image-1.png)
 
