@@ -1,4 +1,4 @@
-# Day-05:HANGMAN  PROJECT
+# Day-07:HANGMAN  PROJECT
 ## Project Objective 
 The Hangman project is a word-guessing game where the player tries to guess a randomly selected word one letter at a time in order to win. If the player fails to guess all the letters within six lives, they lose the game. This project combines several Python concepts learned so far, including loops, functions, conditionals, and string manipulation.
 
