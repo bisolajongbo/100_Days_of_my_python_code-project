@@ -1,18 +1,29 @@
-# Day-08:Caesar Cipher Project
+# Day-09:
 ## Project Objective 
-The Caesar Cipher is a basic encryption program that shifts letters in a message according to a user-defined shift value. It works by moving each letter forward or backward through the alphabet based on the chosen direction (encode or decode), allowing messages to be encrypted or decrypted. This project helped me gain a fundamental understanding of encryption concepts using Python.
+The objective of this project is to build a Python-based blind auction system that allows multiple participants to submit bids without seeing each other's offers. The program collects bidder information, stores bids, determines the highest bidder, and announces the winner at the end of the auction.
 
 
 ## What i learnt
-1. Functions with input:Functions with input allow you to pass data (called parameters or arguments) into a function. This helps the function perform tasks using dynamic values instead of fixed ones.
-2. Positional arguments: A positional argument is an argument passed to a function in the correct order. The position of the value determines which parameter it is assigned to.
-3. Keyword arguments:
-A keyword argument is an argument passed to a function using the parameter name, so the order does not matter. You specify which parameter the value belongs to.
-## How Caesar Cipher   Works
-1.Caesar Cipher program ask User type "encode" if they want to encode a message or "decode" if the want 
-they want to decode a message
-2. If the user want to encode it shift the letter  forward and if the user want to decode it shift the letter backward.
-3. The program ask if user want to try again and if yes the program continues and if no the program ends
+- How to create and call functions using def.
+- How functions help organize code into reusable blocks.
+- How to store data using key-value pairs.
+- How to save bidder names as keys and bid amounts as values.
+- How to use a while loop to keep the program running until a condition is met.
+- How to use a for loop to iterate through dictionary entries.
+- How to use if, elif, and else statements to control program flow.
+- How to validate user input and handle invalid responses.
+- How to track the highest bid and winning bidder using variables.
+
+## How It Works
+1. The program asks each participant:
+    - Enter your name.
+    - Enter your bidding price.
+2. Then ask the user:
+    - If the answer is "yes", the program clears the screen and waits for the next bidder.
+    - If the answer is "no", the auction ends.
+    - If the answer is invalid, the program displays an error message and asks again.
+3. Determine the winner,When bidding ends, the program loops through all stored bids and compares each amount with the current highest bid and the program displays the winner's name and bid amount.
+
 
 ## Output
 ![alt text](image.png)
