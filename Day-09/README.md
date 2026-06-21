@@ -1,4 +1,4 @@
-# Day-09:
+# Day-09: Blind Auction Project
 ## Project Objective 
 The objective of this project is to build a Python-based blind auction system that allows multiple participants to submit bids without seeing each other's offers. The program collects bidder information, stores bids, determines the highest bidder, and announces the winner at the end of the auction.
 
