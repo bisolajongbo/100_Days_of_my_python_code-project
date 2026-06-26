@@ -1,4 +1,4 @@
-# Day-11: BlackJack Game
+# Day-11: BlackJack Game Capstone Project
 ## Project Objective 
 The objective of this project is to create a simplified Blackjack card game in Python where a player competes against the computer. The game allows the player to draw cards, calculate scores, and determine the winner based on Blackjack rules while practicing the use of functions, loops, conditionals, and lists.
 
