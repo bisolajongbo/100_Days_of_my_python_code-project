@@ -29,5 +29,5 @@ The objective of this project is to build a Number Guessing Game in Python where
 
 
 ## Output
-![alt text](image.png)
-![alt text](image-1.png)
+![alt text](2026-06-28.png)
+![alt text](<2026-06-28 (2).png>)
