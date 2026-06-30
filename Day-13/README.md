@@ -1,33 +1,15 @@
-# Day-13: Number Guessing
-## Project Objective 
-The objective of this project is to build a Number Guessing Game in Python where the computer randomly selects a number between 1 and 100, and the player tries to guess it within a limited number of attempts based on the selected difficulty level. The project demonstrates the use of functions, loops, conditional statements, user input, and random number generation.
+# Day-13: Debugging
+## Overview
+Day 13 focused on learning effective debugging techniques in Python. I learned how to identify, analyze, and fix errors by clearly defining problems, reproducing bugs, tracing code execution step by step, interpreting error messages, using print statements for troubleshooting, handling exceptions with try and except blocks, and leveraging a debugger to inspect program behavior. These techniques help improve code quality and make problem-solving more efficient.
 
 ## What i learnt
-- Local vs Global Scope and how variables are accessed in Python.
-- Python does not have block scope for if, for, and while statements.
-- How to modify global variables using the global keyword.
-- How constants are defined using uppercase variable names.
-- How global scope allows variables to be shared across functions.
-- How to apply scope and constants in a real-world Python project.
+* Describe the Problem: Understand what the program is supposed to do and compare it with what it is actually doing.
+* Reproduce the Bug: Run the program again to consistently recreate the error and identify its cause.
+* Play Computer: Trace the code step by step as if you were the computer to find where the issue occurs.
+* Check Error Messages: Read Python's error messages and traceback carefully to locate problems in the code.
+* Use print() Statements: Print variable values and program flow to see what is happening during execution.
+* Handle Exceptions: Use try and except blocks to catch errors and prevent the program from crashing.
+* Use a Debugger: Set breakpoints and inspect variables while the program runs to identify and fix bugs more efficiently.
 
 ## How It Works
-1. The program displays the game logo and welcomes the player.
-2. A random number between 1 and 100 is generated as the secret number.
-3. The player selects a difficulty level:
-    - Easy → 10 attempts
-    - Hard → 5 attempts
-4. The player makes a guess.
-5. The program compares the guess with the secret number:
-    - If the guess is higher than the answer, it displays "Too high".
-    - If the guess is lower than the answer, it displays "Too low".
-    - If the guess is correct, the player wins and the correct answer is displayed.
-6. After each incorrect guess, the number of remaining attempts is reduced by one.
-7. The game continues until:
-    - The player guesses the correct number, or
-    - All attempts are used up, resulting in Game Over.
-8. If attempts remain after an incorrect guess, the player is prompted to guess again.
-
-
-## Output
-![alt text](2026-06-28.png)
-![alt text](<2026-06-28 (2).png>)
+This focuses on debugging Python programs using different troubleshooting techniques. By tracing code execution, reproducing errors, using print statements, handling exceptions, and leveraging a debugger, bugs can be identified and fixed more effectively, resulting in cleaner and more reliable code.
