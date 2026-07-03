@@ -7,15 +7,26 @@ print(logo)
 
 # Function to randomly select a celebrity
 def get_celebrity():
+    """Returns a random celebrity from the dataset."""
     return random.choice(data)
 
 
-# Function to determine the correct answer
-def get_correct_answer(cele_A, cele_B):
+# Function to format celebrity information
+def format_data(account):
+    """Returns the celebrity information in a readable format."""
+    return f"{account['name']}, a {account['description']}, from {account['country']}"
+
+
+# Function to check if the user's guess is correct
+def get_correct_answer(user_guess, cele_A, cele_B):
+    """
+    Returns True if the user's guess is correct,
+    otherwise returns False.
+    """
     if cele_A["follower_count"] > cele_B["follower_count"]:
-        return "A"
+        return user_guess == "A"
     else:
-        return "B"
+        return user_guess == "B"
 
 
 # Function to play the game
@@ -29,40 +40,39 @@ def play_game():
 
     while game_should_continue:
 
-        # Pick the second celebrity
+        # Previous B becomes the next A (except first round)
         cele_B = get_celebrity()
 
-        # Make sure they are different
+        # Make sure both celebrities are different
         while cele_A == cele_B:
             cele_B = get_celebrity()
 
-        # Display both celebrities
-        print(f"Compare A: {cele_A['name']} a {cele_A['description']} from {cele_A['country']}")
+        # Display celebrities
+        print(f"Compare A: {format_data(cele_A)}")
         print(vs)
-        print(f"Compare B: {cele_B['name']} a {cele_B['description']} from {cele_B['country']}")
+        print(f"Against B: {format_data(cele_B)}")
 
-        # Ask the user for a guess
+        # Get user's guess
         guess = input("Who has more followers? Type 'A' or 'B': ").upper()
 
-        # Get the correct answer
-        correct_answer = get_correct_answer(cele_A, cele_B)
+        # Check answer
+        is_correct = get_correct_answer(guess, cele_A, cele_B)
 
-        # Check if the user's guess is correct
-        if guess == correct_answer:
+        # Clear screen
+        print("\n" * 20)
+        print(logo)
 
+        if is_correct:
             score += 1
-            print("\n" * 20)
-            print(logo)
             print(f"You're right! Current score: {score}")
 
-            # If B is the winner, it becomes the new A
-            if correct_answer == "B":
-                cele_A = cele_B
+            # Winner (B) becomes the next A
+            cele_A = cele_B
 
         else:
             game_should_continue = False
             print(f"Sorry, that's wrong. Final score: {score}")
 
 
-# Call the game function
+# Start the game
 play_game()
