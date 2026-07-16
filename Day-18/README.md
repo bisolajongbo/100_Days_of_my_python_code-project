@@ -1,4 +1,4 @@
-# Day-18: Hirst Dot Painting Generato
+# Day-18: Hirst Dot Painting Generator
 ## Project Overview
 The Hirst Dot Painting Generator is a Python project that recreates the famous spot paintings inspired by artist Damien Hirst using the Turtle Graphics module. The program randomly selects colors from a predefined list of RGB values and arranges them into a 10 × 10 grid of colorful dots.
 
