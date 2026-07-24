@@ -26,10 +26,6 @@ While building this project, I applied Object-Oriented Programming (OOP) princip
 **line.py:** Creates the visual boundaries of the game by drawing the center dividing line and the top border, giving the Pong arena a clear and organized layout.
 
 
-
-   ## Output
-
-   <video controls src="Pong game.mp4" title="Title"></video>
    
 
    

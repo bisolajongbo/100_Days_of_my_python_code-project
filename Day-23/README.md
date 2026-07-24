@@ -30,7 +30,3 @@ This module is responsible for creating and managing the cars. The `CarManager` 
 This module manages the game's scoring and display elements. It draws the finish line, shows the player's current level, updates the level after each successful crossing, and displays a **"GAME OVER"** message when the player is hit by a car.
 
 
-   ## Output
-   <video controls src="Turtle crossing.mp4" title="Title"></video>
-
- 

@@ -47,7 +47,5 @@ This module manages the game's scoring system and displays messages on the scree
 * The `Game_over()` method displays a **"GAME OVER"** message at the center of the screen when the game ends.
 
 
-   ## Output
- <video controls src="Snake game.mp4" title="Title"></video>
 
  
