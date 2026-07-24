@@ -48,7 +48,6 @@ This module manages the game's scoring system and displays messages on the scree
 
 
    ## Output
-
-   <video controls src="snake game.mp4" title="Title"></video>
+ <video controls src="Snake game.mp4" title="Title"></video>
 
  
