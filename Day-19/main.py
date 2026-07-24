@@ -11,6 +11,12 @@ screen.listen()
 # Set the screen size
 screen.setup(width=500, height=400)
 
+# Set the screen background color
+screen.bgcolor("black")
+
+# Set the game title
+screen.title("Turtle race")
+
 # Ask the user to bet on which turtle will win
 user_bet = screen.textinput(
     title="Make a bet",
@@ -18,7 +24,7 @@ user_bet = screen.textinput(
 )
 
 # List of turtle colours
-colors = ["red", "blue", "green", "orange", "yellow", "brown"]
+colors = ["red", "blue", "green", "orange", "yellow", "white"]
 
 # Starting y-coordinates for each turtle
 y_position = [-70, -40, -10, 20, 50, 80]

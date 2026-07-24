@@ -10,7 +10,7 @@ Through this project, I learned how to:
 4. Generate random movements using the random module.
 5. Accept user input through graphical dialog boxes.
 6. Detect a winner by checking each turtle's position.
-7. Combine loops, conditions, and objects to build an interactive gam.
+7. Combine loops, conditions, and objects to build an interactive game.
 ## How It Works
 1. The game window is created using the Turtle Graphics module.
 2. Six turtles are positioned at the starting line, each with a unique color.
